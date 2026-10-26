@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portal web educativo de la Institución Educativa Emblemática Coronel Bolognesi de Tacna.">
+  <title>Inicio | I.E.E. Coronel Bolognesi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- ENCABEZADO PRINCIPAL -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="img/inicio/escudo-coronel-bolognesi.png" alt="Logotipo oficial del Colegio Emblemático Coronel Bolognesi">
+        <span>
+          <strong>I.E.E. Coronel Bolognesi</strong>
+          <small>Tacna · Perú</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" onclick="const n=document.getElementById('menu-principal');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">☰ Menú</button>
+
+      <nav class="nav" id="menu-principal" aria-label="Navegación principal">
+        <a href="index.html" class="active" aria-current="page">Inicio</a>
+        <a href="institucion.html">Nuestra Institución</a>
+        <a href="propuesta.html">Propuesta Educativa</a>
+        <a href="actividades.html">Vida Escolar y Comunidad</a>
+        <a href="contacto.html">Atención y Servicios</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- BANNER DE BIENVENIDA -->
+  <section class="banner-institucional">
+    <img src="img/inicio/Banner_bienvenida.jpg" alt="Bienvenidos a la Institución Educativa Emblemática Coronel Bolognesi de Tacna">
+  </section>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main id="contenido">
+    
+    <!-- SECCIÓN HERO -->
+    <section class="hero">
+      <div class="container hero-content">
+        <span class="eyebrow">Disciplina · Excelencia · Identidad</span>
+        <h1>Bienvenidos a la familia bolognesiana</h1>
+        <p>¡Bienvenidos a la Institución Educativa Emblemática Coronel Bolognesi! Saludamos con orgullo a toda nuestra comunidad educativa y a quienes visitan este espacio digital. Cuna de líderes, disciplina y excelencia académica en el corazón de Tacna, nuestra institución impulsa la formación integral de jóvenes con valores sólidos, amor por la patria y espíritu de superación.</p>
+        <p class="quote">«Tengo deberes sagrados que cumplir y los cumpliré hasta quemar el último cartucho»</p>
+        <a class="btn" href="institucion.html">Conoce nuestra institución</a>
+      </div>
+    </section>
+
+    <!-- SECCIÓN ENLACES RÁPIDOS -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Explora nuestro colegio</h2>
+          <p>Accede rápidamente a la información más importante de nuestra comunidad educativa.</p>
+        </div>
+
+        <div class="grid grid-3">
+          <article class="card quick-card">
+            <div class="quick-icon">🎓</div>
+            <h3>Admisión y matrícula 2027</h3>
+            <p>Consulta la información general, los requisitos y las etapas del proceso.</p>
+            <a href="contacto.html#admission">Ver información →</a>
+          </article>
+
+          <article class="card quick-card">
+            <div class="quick-icon">💻</div>
+            <h3>Aula virtual</h3>
+            <p>Acceso al entorno educativo digital de Google Workspace.</p>
+            <a href="https://workspace.google.com/" target="_blank" rel="noopener">Ir a Google Workspace →</a>
+          </article>
+
+          <article class="card quick-card">
+            <div class="quick-icon">📄</div>
+            <h3>Mesa de partes</h3>
+            <p>Información sobre trámites y atención administrativa.</p>
+            <a href="contacto.html#mesa-partes">Conocer trámites →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN NUESTRA IDENTIDAD -->
+    <section class="section alt">
+      <div class="container two-col">
+        <div>
+          <span class="eyebrow">Nuestra identidad</span>
+          <h2>Una historia que inspira</h2>
+          <p>Somos una institución educativa pública de Tacna que promueve una formación humanista y técnica, basada en valores, aprendizaje autónomo y convivencia saludable.</p>
+          <a class="btn" href="propuesta.html">Conoce nuestra propuesta</a>
+        </div>
+        <img class="feature-img" src="img/inicio/estudiantesbolognesianos.jpg" alt="Estudiantes de la institución" onerror="this.outerHTML='<div class=&quot;placeholder feature-img&quot;>Añadir imagen: estudiantesbolognesianos.jpg</div>'">
+      </div>
+    </section>
+
+    <!-- SECCIÓN ACTIVIDADES -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>La vida bolognesiana</h2>
+          <p>Celebramos el talento, la tradición, el deporte, la cultura y los logros de nuestros estudiantes.</p>
+        </div>
+
+        <div class="grid grid-3">
+          <article class="card">
+            <img src="img/actividades/Festicanto.jpg" alt="Festicanto Bolognesiano">
+            <div class="card-body">
+              <h3>Arte y cultura</h3>
+              <p>Espacios donde el talento y la identidad se expresan a través de la música, la danza y las artes.</p>
+              <a href="actividades.html#arte-cultura">Ver actividades →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="img/actividades/Fiestas_patrias.jpg" alt="Ceremonia por fiestas patrias">
+            <div class="card-body">
+              <h3>Identidad patriótica</h3>
+              <p>Conmemoraciones que mantienen viva nuestra historia y el amor por el Perú.</p>
+              <a href="actividades.html#civico">Ver actividades →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="img/actividades/Feria_Eureka.jpg" alt="Feria de innovación Eureka">
+            <div class="card-body">
+              <h3>Innovación y aprendizaje</h3>
+              <p>Proyectos que promueven la creatividad, la investigación y la búsqueda de soluciones.</p>
+              <a href="actividades.html#galeria">Ver galería →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3>I.E.E. Coronel Bolognesi</h3>
+          <p>Formación integral, disciplina, identidad y compromiso con el futuro de Tacna.</p>
+          <p><strong>Lema:</strong> «Tengo deberes sagrados que cumplir y los cumpliré hasta quemar el último cartucho».</p>
+        </div>
+
+        <div>
+          <h4>Explora el portal</h4>
+          <p><a href="institucion.html">Nuestra Institución</a></p>
+          <p><a href="propuesta.html">Propuesta Educativa</a></p>
+          <p><a href="actividades.html">Vida Escolar y Comunidad</a></p>
+        </div>
+
+        <div>
+          <h4>Contacto</h4>
+          <p>Calle Modesto Molina s/n, Tacna, Perú</p>
+          <p>Teléfono: 052-425232</p>
+          <p><a href="mailto:secretaria@ieecoronelbolognesi.edu.pe">secretaria@ieecoronelbolognesi.edu.pe</a></p>
+          <p><a href="https://www.facebook.com/I.E.E.CoronelBolognesi" target="_blank" rel="noopener">Facebook institucional</a></p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        © 2026 I.E.E. Coronel Bolognesi · Portal web educativo. Sitio académico informativo.
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

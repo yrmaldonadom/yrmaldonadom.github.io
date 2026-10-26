@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portal web educativo de la Institución Educativa Emblemática Coronel Bolognesi de Tacna.">
+  <title>Propuesta Educativa | I.E.E. Coronel Bolognesi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- ENCABEZADO -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="img/inicio/escudo-coronel-bolognesi.png" alt="Logotipo oficial del Colegio Emblemático Coronel Bolognesi">
+        <span><strong>I.E.E. Coronel Bolognesi</strong><small>Tacna · Perú</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" onclick="const n=document.getElementById('menu-principal');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">☰ Menú</button>
+      <nav class="nav" id="menu-principal" aria-label="Navegación principal">
+        <a href="index.html">Inicio</a>
+        <a href="institucion.html">Nuestra Institución</a>
+        <a href="propuesta.html" class="active" aria-current="page">Propuesta Educativa</a>
+        <a href="actividades.html">Vida Escolar y Comunidad</a>
+        <a href="contacto.html">Atención y Servicios</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- CONTENIDO PRINCIPAL (INICIO) -->
+  <main id="contenido">
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Aprender para transformar</span>
+        <h1>Propuesta Educativa</h1>
+        <p>Formación humanista y técnica con enfoque por competencias, innovación, emprendimiento y conciencia ambiental.</p>
+      </div>
+    </section>
+
+    <!-- Modelo Educativo -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Modelo educativo</h2>
+          <p>El estudiante construye su aprendizaje y desarrolla competencias para la vida.</p>
+        </div>
+        <div class="two-col">
+          <div>
+            <p>Trabajamos con el enfoque por competencias del Currículo Nacional de la Educación Básica (CNEB). Concebimos al estudiante como constructor de su propio conocimiento, capaz de superar sus limitaciones y resolver conflictos mediante el diálogo y la concertación.</p>
+            <ul class="info-list">
+              <li>Trabajo colegiado y grupos de interaprendizaje.</li>
+              <li>Reuniones de equipo por áreas.</li>
+              <li>Monitoreo y acompañamiento pedagógico.</li>
+              <li>Participación en concursos escolares, científicos, deportivos y artísticos.</li>
+            </ul>
+            <div class="callout">
+              <strong>Proyecto educativo:</strong> “Transformando el Aula: Matemática Viva y Ciudadanía Ética con IA”.
+            </div>
+          </div>
+          <img class="feature-img" src="img/propuesta/estudiantes-secundaria1.jpg" alt="Estudiantes desarrollando actividades académicas" onerror="this.outerHTML='<div class=&quot;placeholder feature-img&quot;>Añadir imagen: estudiantes-secundaria1.jpg</div>'">
+        </div>
+      </div>
+    </section>
+
+    <!-- Niveles Educativos -->
+    <section class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Niveles educativos</h2>
+          <p>Atención educativa en primaria y secundaria.</p>
+        </div>
+        <div class="grid grid-2">
+          <article class="card">
+            <img src="img/propuesta/estudiantes-primaria.jpg" alt="Estudiantes de primaria" onerror="this.outerHTML='<div class=&quot;placeholder&quot;>estudiantes-primaria.jpg</div>'">
+            <div class="card-body">
+              <h3>Educación Primaria</h3>
+              <p>Grados atendidos: 1.° a 6.°.</p>
+              <p><strong>Turno:</strong> mañana, de 7:30 a. m. a 12:50 p. m.</p>
+              <p>Evaluación formativa y bimestral, con informes de progreso para las familias.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="img/propuesta/estudiantes-secundaria2.jpg" alt="Estudiantes de secundaria" onerror="this.outerHTML='<div class=&quot;placeholder&quot;>estudiantes-secundaria.jpg</div>'">
+            <div class="card-body">
+              <h3>Educación Secundaria</h3>
+              <p>Grados atendidos: 1.° a 5.° año.</p>
+              <p><strong>Turno I:</strong> 7:30 a. m. a 12:50 p. m.</p>
+              <p><strong>Turno II:</strong> 12:45 p. m. a 6:15 p. m.</p>
+              <p>Desarrollo de competencias en áreas curriculares y talleres.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Áreas curriculares -->
+    <section class="section alt" id="areas-curriculares">
+      <div class="container">
+        <div class="section-head">
+          <h2>Áreas curriculares</h2>
+          <p>Desarrollamos las áreas del Currículo Nacional de la Educación Básica, entre ellas Comunicación, Ciencias Sociales, Desarrollo Personal, Ciudadanía y Cívica, Ciencia y Tecnología, Inglés, Educación Religiosa y Educación para el Trabajo. Las familias pueden solicitar la exoneración de Educación Religiosa hasta el mes de marzo.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Áreas técnicas -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Áreas técnicas</h2>
+          <p>Los talleres promueven habilidades técnicas, proyectos productivos y orientación vocacional.</p>
+        </div>
+        <div class="grid grid-4">
+          <article class="card">
+            <img src="img/propuesta/taller-carpinteria.jpg" alt="Taller de carpintería" onerror="this.outerHTML='<div class=&quot;placeholder&quot;>taller-carpinteria.jpg</div>'">
+            <div class="card-body">
+              <h3>Carpintería y Ebanistería</h3>
+              <p>Elaboración y acabado de muebles, estructuras y productos de madera.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="img/propuesta/taller-mecanica.jpg" alt="Taller de mecánica de producción" onerror="this.outerHTML='<div class=&quot;placeholder&quot;>taller-mecanica.jpg</div>'">
+            <div class="card-body">
+              <h3>Mecánica de Producción</h3>
+              <p>Operación de máquinas-herramientas, soldadura y fabricación de elementos metálicos.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="img/propuesta/taller-electricidad.jpg" alt="Taller de electricidad y electrónica" onerror="this.outerHTML='<div class=&quot;placeholder&quot;>taller-electricidad.jpg</div>'">
+            <div class="card-body">
+              <h3>Electricidad y Electrónica</h3>
+              <p>Diseño e instalación de circuitos, tableros de control y fundamentos de microelectrónica.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="img/propuesta/taller-computacion.jpg" alt="Taller de computación e informática" onerror="this.outerHTML='<div class=&quot;placeholder&quot;>taller-computacion.jpg</div>'">
+            <div class="card-body">
+              <h3>Computación e Informática</h3>
+              <p>Ofimática, diseño digital, maquetación web y pensamiento computacional.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  
+    <!-- Educación Básica Alternativa (CEBA) -->
+    <section class="section alt">
+      <div class="container two-col ceba-section">
+        <div>
+          <h2>Educación Básica Alternativa (CEBA)</h2>
+          <p>El CEBA Coronel Bolognesi atiende a jóvenes y adultos que desean iniciar o culminar sus estudios, con modalidad presencial y semipresencial.</p>
+          <ul class="info-list">
+            <li>Ciclo Inicial e Intermedio, equivalente a Primaria.</li>
+            <li>Ciclo Avanzado, equivalente de 1.° a 4.° de Secundaria.</li>
+            <li>Turno nocturno: lunes a viernes, de 5:30 p. m. a 9:45 p. m.</li>
+          </ul>
+        </div>
+        <figure class="ceba-image-card">
+          <img src="img/propuesta/CEBA_Coronel.jpg" alt="Información visual del CEBA Coronel Bolognesi" onerror="this.outerHTML='<div class=&quot;placeholder&quot;>Cuando recibas la imagen, guárdala como img/propuesta/CEBA_Coronel.jpg</div>'">
+        </figure>
+      </div>
+    </section>
+
+  </main>
+  <!-- CONTENIDO PRINCIPAL (FIN) -->
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3>I.E.E. Coronel Bolognesi</h3>
+          <p>Formación integral, disciplina, identidad y compromiso con el futuro de Tacna.</p>
+          <p><strong>Lema:</strong> «Tengo deberes sagrados que cumplir y los cumpliré hasta quemar el último cartucho».</p>
+        </div>
+        <div>
+          <h4>Explora el portal</h4>
+          <p><a href="institucion.html">Nuestra Institución</a></p>
+          <p><a href="propuesta.html">Propuesta Educativa</a></p>
+          <p><a href="actividades.html">Vida Escolar y Comunidad</a></p>
+        </div>
+        <div>
+          <h4>Contacto</h4>
+          <p>Calle Modesto Molina s/n, Tacna, Perú</p>
+          <p>Teléfono: 052-425232</p>
+          <p><a href="mailto:secretaria@ieecoronelbolognesi.edu.pe">secretaria@ieecoronelbolognesi.edu.pe</a></p>
+          <p><a href="https://facebook.com" target="_blank" rel="noopener">Facebook institucional</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2026 I.E.E. Coronel Bolognesi · Portal web educativo. Sitio académico informativo.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portal web educativo de la Institución Educativa Emblemática Coronel Bolognesi de Tacna.">
+  <title>Nuestra Institución | I.E.E. Coronel Bolognesi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- ENCABEZADO -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="img/inicio/escudo-coronel-bolognesi.png" alt="Logotipo oficial del Colegio Emblemático Coronel Bolognesi">
+        <span><strong>I.E.E. Coronel Bolognesi</strong><small>Tacna · Perú</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" onclick="const n=document.getElementById('menu-principal');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">☰ Menú</button>
+      <nav class="nav" id="menu-principal" aria-label="Navegación principal">
+        <a href="index.html">Inicio</a>
+        <a href="institucion.html" class="active" aria-current="page">Nuestra Institución</a>
+        <a href="propuesta.html">Propuesta Educativa</a>
+        <a href="actividades.html">Vida Escolar y Comunidad</a>
+        <a href="contacto.html">Atención y Servicios</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- CONTENIDO PRINCIPAL (INICIO) -->
+  <main id="contenido">
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Identidad e historia</span>
+        <h1>Nuestra Institución</h1>
+        <p>Conoce la historia, los principios, los símbolos y los espacios que forman parte de la comunidad bolognesiana.</p>
+      </div>
+    </section>
+
+    <!-- Reseña Histórica -->
+    <section class="section">
+      <div class="container two-col">
+        <div>
+          <h2>Reseña histórica</h2>
+          <p>La Institución Educativa Emblemática Coronel Bolognesi fue fundada en los albores de la República y, a inicios del siglo XXI, recibió el carácter de emblemática por su trayectoria y los logros obtenidos.</p>
+          <p>La institución cuenta con infraestructura renovada en 2023, cinco pabellones de aulas, plataformas deportivas y ambientes orientados al aprendizaje.</p>
+        </div>
+        <img class="feature-img" src="img/institucion/Reseña.jpg" alt="Reseña historica del colegio" onerror="this.outerHTML='<div class=&quot;placeholder feature-img&quot;>Añadir imagen:Reseña.jpg</div>'">
+      </div>
+    </section>
+
+
+    <!-- Identidad Bolognesiana -->
+    <section class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Identidad Bolognesiana</h2>
+          <p>Los principios que orientan nuestro trabajo educativo.</p>
+        </div>
+        <div class="grid grid-2">
+          <article class="card">
+            <div class="card-body">
+              <h3>Misión</h3>
+              <p>Brindar y fortalecer la práctica de valores, el aprendizaje autónomo y la gestión de soluciones para una vida basada en la integridad personal, social, ambiental y una sana convivencia.</p>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-body">
+              <h3>Visión</h3>
+              <p>Brindar educación de calidad en primaria y secundaria, con formación humanista y técnica, formando ciudadanos líderes, innovadores, emprendedores y comprometidos con el desarrollo local, regional y nacional.</p>
+            </div>
+          </article>
+        </div>
+        
+        <h3 style="margin-top:28px;color:var(--azul)">Valores institucionales</h3>
+        <div class="pill-list">
+          <span class="pill">Respeto</span>
+          <span class="pill">Responsabilidad</span>
+          <span class="pill">Solidaridad</span>
+          <span class="pill">Equidad</span>
+          <span class="pill">Ética</span>
+          <span class="pill">Inclusión</span>
+          <span class="pill">Conciencia ambiental</span>
+          <span class="pill">Creatividad e innovación</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Símbolos Institucionales -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Símbolos institucionales</h2>
+          <p>Emblemas que representan nuestra historia y compromiso con la educación.</p>
+        </div>
+        <div class="two-col">
+          <article class="card">
+            <div class="card-body symbol-card">
+              <img src="img/institucion/insignia-oficial.jpg" alt="Insignia oficial del colegio" onerror="this.outerHTML='<div class=&quot;placeholder&quot;>Añadir imagen: insignia-oficial.jpg</div>'">
+              <h3>Insignia oficial</h3>
+              <p>Símbolo de identidad y pertenencia bolognesiana.</p>
+            </div>
+          </article>
+          <div class="hymn-content">
+            <h3>Himno al Colegio Coronel Bolognesi</h3>
+            <p><em>Letra: Enrique Gamarra Hernández · Música: Leontina Laura Marín</em></p>
+            <div class="callout himno-coro">
+              <p><strong>Coro</strong></p>
+              <p>
+                Adelante muchachos de Tacna<br>
+                por la senda del bien y el honor.<br>
+                Bolognesi tu nombre glorioso<br>
+                nos impone constancia y ardor.
+              </p>
+              <p>
+                Luchar y estudiar,<br>
+                triunfar con honor,<br>
+                sea aspiración de nuestra vida,<br>
+                tu ejemplo inmortal,<br>
+                sublime ideal<br>
+                ponga en nuestras almas su aliento triunfal.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Infraestructura -->
+    <section class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Infraestructura</h2>
+          <p>Ambientes destinados al aprendizaje, la investigación, la lectura y el deporte.</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="card">
+            <img src="img/institucion/pabellones-y-aulas.jpg" alt="Pabellones y aulas" onerror="this.outerHTML='<div class=&quot;placeholder&quot;>pabellones-y-aulas.jpg</div>'">
+            <div class="card-body"><h3>Pabellones y aulas</h3></div>
+          </article>
+          <article class="card">
+            <img src="img/institucion/laboratorios-ciencias.jpg" alt="Laboratorios de ciencias" onerror="this.outerHTML='<div class=&quot;placeholder&quot;>laboratorios-ciencias.jpg</div>'">
+            <div class="card-body"><h3>Laboratorios</h3></div>
+          </article>
+          <article class="card">
+            <img src="img/institucion/biblioteca-escolar.jpg" alt="Biblioteca escolar" onerror="this.outerHTML='<div class=&quot;placeholder&quot;>biblioteca-escolar.jpg</div>'">
+            <div class="card-body"><h3>Biblioteca</h3></div>
+          </article>
+          <article class="card">
+            <img src="img/institucion/auditorio.jpg" alt="Auditorio" onerror="this.outerHTML='<div class=&quot;placeholder&quot;>auditorio.jpg</div>'">
+            <div class="card-body"><h3>Auditorio</h3></div>
+          </article>
+          <article class="card">
+            <img src="img/institucion/instalaciones-deportivas.jpg" alt="Instalaciones deportivas" onerror="this.outerHTML='<div class=&quot;placeholder&quot;>instalaciones-deportivas.jpg</div>'">
+            <div class="card-body"><h3>Instalaciones deportivas</h3></div>
+          </article>
+          <article class="card">
+            <img src="img/institucion/piscina-escolar.jpg" alt="Piscina escolar" onerror="this.outerHTML='<div class=&quot;placeholder&quot;>piscina-escolar.jpg</div>'">
+            <div class="card-body"><h3>Piscina</h3></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Organización Institucional -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Organización institucional</h2>
+          <p>La institución articula el trabajo directivo, pedagógico, administrativo y de participación educativa.</p>
+        </div>
+        <div class="organization-grid">
+          <section class="card organization-card">
+            <div class="card-body">
+              <h3>Plana directiva</h3>
+              <p class="organization-intro">Director y subdirectores.</p>
+              <ul class="staff-list">
+                <li><strong>TINTAYA CARDENAS, Oscar Rufo</strong><span>Director</span></li>
+                <li><strong>CUTIPA CHAMBE, William Porfirio</strong><span>Subdirector de Secundaria T-I</span></li>
+                <li><strong>MARCA HURTADO, Wilber Hilario</strong><span>Subdirector de Secundaria T-II</span></li>
+                <li><strong>QUISPE CALIZAYA, Edwin David</strong><span>Subdirector de Secundaria T-II</span></li>
+                <li><strong>QUISPE GARCÍA, Sonia Esther</strong><span>Subdirectora Primaria Personal</span></li>
+              </ul>
+            </div>
+          </section>
+          <section class="card organization-card">
+            <div class="card-body">
+              <h3>Personal jerárquico</h3>
+              <ul class="staff-list">
+                <li><strong>CUSE MAMANI, Hugo Fernando</strong><span>Coordinador TOE - I</span></li>
+                <li><strong>ESPINOZA ACOSTA, Rosa Luz</strong><span>Jefe Laboratorio T-I</span></li>
+                <li><strong>ESQUIA MAMANI, Norah Cecilia</strong><span>Coordinadora Pedag. T-II</span></li>
+                <li><strong>FERNANDEZ, Maritza de Lourdes</strong><span>Coordinadora Pedagógica T-I</span></li>
+                <li><strong>HERRERA JUAREZ, Alberto Vicente</strong><span>Coordinador TOE I-II</span></li>
+                <li><strong>MAMANI MAMANI, Elías</strong><span>Jefe de Laboratorio T-II</span></li>
+                <li><strong>MOLLINEDO VILCA, Alberto</strong><span>Jefe Taller - II</span></li>
+                <li><strong>QUISPE GARCIA, Gladys Ninfa</strong><span>Coordinadora Pedag. T. I -II</span></li>
+                <li><strong>QUISPE LOPEZ, Elena Marisol</strong><span>Jefe Taller - I</span></li>
+                <li><strong>ZEBALLOS PAZ, Elizabeth</strong><span>Coordinadora TOE - II</span></li>
+              </ul>
+            </div>
+          </section>
+          <section class="card organization-card">
+            <div class="card-body">
+              <h3>Plana administrativa</h3>
+              <p class="organization-intro">Personal administrativo y de oficina.</p>
+              <ul class="staff-list">
+                <li><strong>COAQUIRA PILCO, Nery Gladys</strong><span>Auxiliar Laboratorio</span></li>
+                <li><strong>GALLO DE GARCIA, Patricia Graciela</strong><span>Secretaria</span></li>
+                <li><strong>GARCIA RAMIREZ, Carlos Alberto</strong><span>Oficinista I</span></li>
+                <li><strong>GUIZA QUENTA, Dolly Luisa</strong><span>Aux. Laboratorio</span></li>
+                <li><strong>LA ROSA SERRANO, David Miguel</strong><span>Tec. Administrativo</span></li>
+                <li><strong>LLACA DE TELLEZ, Carmen Teresa</strong><span>Oficinista I</span></li>
+                <li><strong>MENDOZA LLANOS, Mónica Roxana</strong><span>Oficinista I</span></li>
+                <li><strong>OBLITAS RAMOS, Shirley del Rosario</strong><span>Oficinista I</span></li>
+                <li><strong>RIOS SALGADO, Etelvina Nicolasa</strong><span>Auxiliar Biblioteca</span></li>
+                <li><strong>VARGAS VEGA, Vilma Sabina</strong><span>Auxiliar Biblioteca</span></li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <!-- CONTENIDO PRINCIPAL (FIN) -->
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3>I.E.E. Coronel Bolognesi</h3>
+          <p>Formación integral, disciplina, identidad y compromiso con el futuro de Tacna.</p>
+          <p><strong>Lema:</strong> «Tengo deberes sagrados que cumplir y los cumpliré hasta quemar el último cartucho».</p>
+        </div>
+        <div>
+          <h4>Explora el portal</h4>
+          <p><a href="institucion.html">Nuestra Institución</a></p>
+          <p><a href="propuesta.html">Propuesta Educativa</a></p>
+          <p><a href="actividades.html">Vida Escolar y Comunidad</a></p>
+        </div>
+        <div>
+          <h4>Contacto</h4>
+          <p>Calle Modesto Molina s/n, Tacna, Perú</p>
+          <p>Teléfono: 052-425232</p>
+          <p><a href="mailto:secretaria@ieecoronelbolognesi.edu.pe">secretaria@ieecoronelbolognesi.edu.pe</a></p>
+          <p><a href="https://facebook.com" target="_blank" rel="noopener">Facebook institucional</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2026 I.E.E. Coronel Bolognesi · Portal web educativo. Sitio académico informativo.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

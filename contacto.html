@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portal web educativo de la Institución Educativa Emblemática Coronel Bolognesi de Tacna.">
+  <title>Atención y Servicios | I.E.E. Coronel Bolognesi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- ENCABEZADO -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="img/inicio/escudo-coronel-bolognesi.png" alt="Logotipo oficial del Colegio Emblemático Coronel Bolognesi">
+        <span><strong>I.E.E. Coronel Bolognesi</strong><small>Tacna · Perú</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" onclick="const n=document.getElementById('menu-principal');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">☰ Menú</button>
+      <nav class="nav" id="menu-principal" aria-label="Navegación principal">
+        <a href="index.html">Inicio</a>
+        <a href="institucion.html">Nuestra Institución</a>
+        <a href="propuesta.html">Propuesta Educativa</a>
+        <a href="actividades.html">Vida Escolar y Comunidad</a>
+        <a href="contacto.html" class="active" aria-current="page">Atención y Servicios</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- CONTENIDO PRINCIPAL (INICIO) -->
+  <main id="contenido">
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Estamos para orientarte</span>
+        <h1>Atención y Servicios</h1>
+        <p>Información para familias, estudiantes y usuarios que necesitan realizar consultas o trámites institucionales.</p>
+      </div>
+    </section>
+
+    <!-- Admisión y Matrícula -->
+    <section class="section" id="admission">
+      <div class="container">
+        <div class="section-head">
+          <h2>Admisión y matrícula 2027</h2>
+          <p>La información disponible en los documentos institucionales no especifica todavía fechas oficiales para el proceso 2027.</p>
+        </div>
+        <div class="grid grid-2">
+          <article class="card">
+            <div class="card-body">
+              <h3>Información importante</h3>
+              <ul class="info-list">
+                <li>La matrícula es gratuita.</li>
+                <li>No se exige examen de ingreso ni pagos de APAFA, útiles, uniforme o donaciones como condición.</li>
+                <li>El proceso inicia cuando se publican las vacantes y el cronograma oficial.</li>
+                <li>Se atiende Educación Primaria y Secundaria.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-body">
+              <h3>Documentos habituales</h3>
+              <ul class="info-list">
+                <li>Partida de nacimiento del estudiante.</li>
+                <li>DNI vigente del estudiante y de sus padres o documentos equivalentes.</li>
+                <li>Informe de progreso, certificado o constancia de estudios.</li>
+                <li>Declaración jurada de domicilio.</li>
+                <li>Documentación adicional cuando corresponda a necesidades educativas especiales.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+        <p class="notice">Confirma las vacantes, plazos y comunicados del proceso 2027 directamente con la institución.</p>
+      </div>
+    </section>
+
+    <!-- Mesa de Partes -->
+    <section class="section alt" id="mesa-partes">
+      <div class="container">
+        <div class="section-head">
+          <h2>Mesa de partes y trámites</h2>
+          <p>El personal administrativo atiende las solicitudes durante su jornada de trabajo. Consulta con secretaría el TUPA institucional vigente, requisitos y plazos específicos.</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="card">
+            <div class="card-body">
+              <h3>Solicitud de matrícula</h3>
+              <p>Información sobre vacantes, ratificación y documentos del estudiante.</p>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-body">
+              <h3>Traslado y estudios</h3>
+              <p>Traslado de matrícula, convalidación, revalidación o prueba de ubicación.</p>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-body">
+              <h3>Justificaciones y reclamos</h3>
+              <p>Justificación de inasistencias, permisos de salida y Libro de Reclamaciones.</p>
+            </div>
+          </article>
+        </div>
+        <div class="callout" style="margin-top:22px">
+          <strong>Libro de Reclamaciones:</strong> los documentos institucionales indican un plazo de respuesta de 15 días hábiles no prorrogables para quejas y reclamos.
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto Directo -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contacto institucional</h2>
+          <p>Canales y datos de contacto consignados en la documentación de la institución.</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="card">
+            <div class="card-body">
+              <div class="quick-icon">☎️</div>
+              <h3>Teléfono</h3>
+              <p>052-425232</p>
+              <a href="tel:+5152425232">Llamar</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-body">
+              <div class="quick-icon">✉️</div>
+              <h3>Correo</h3>
+              <p>secretaria@ieecoronelbolognesi.edu.pe</p>
+              <a href="mailto:secretaria@ieecoronelbolognesi.edu.pe">Enviar correo</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-body">
+              <div class="quick-icon">🌐</div>
+              <h3>Facebook</h3>
+              <p>Comunicados y novedades institucionales.</p>
+              <a href="https://www.facebook.com/I.E.E.CoronelBolognesi" target="_blank" rel="noopener">Visitar Facebook</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ubicación Geográfica -->
+    <section class="section alt">
+      <div class="container two-col">
+        <div>
+          <h2>Ubicación</h2>
+          <p><strong>Dirección:</strong> Calle Modesto Molina s/n, Tacna, Perú.</p>
+          <p>El documento fuente no incluye coordenadas ni número exacto; verifica la ubicación antes de publicar el mapa definitivo.</p>
+          <a class="btn" href="https://maps.app.goo.gl/EHsFMD7TuNHqYtJEA" target="_blank" rel="noopener">Abrir búsqueda en Maps</a>
+        </div>
+        <div class="card">
+          <img src="img/contacto/mapa-colegio-coronel-bolognesi.jpg" alt="Mapa de ubicación de la institución" style="aspect-ratio:4/3;border:1px solid #ccd5df;box-shadow:0 5px 16px #102a4318" onerror="this.outerHTML='<div class=&quot;placeholder&quot; style=&quot;aspect-ratio:4/3&quot;>Añadir captura verificada del mapa: mapa-colegio-coronel-bolognesi.jpg</div>'">
+        </div>
+      </div>
+    </section>
+
+    <!-- Formulario de Consulta -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Formulario de consulta</h2>
+          <p>Completa los campos y prepara tu consulta. Este formulario es una maqueta HTML y necesita un servicio de envío para transmitir mensajes.</p>
+        </div>
+        <form class="contact-form" action="#" method="post" novalidate>
+          <div class="form-field">
+            <label for="nombre"><strong>Nombre completo *</strong></label>
+            <input id="nombre" name="nombre" type="text" autocomplete="name" minlength="3" required aria-describedby="error-nombre">
+            <span class="error-tooltip" id="error-nombre" role="status">Escribe tu nombre (mínimo 3 caracteres).</span>
+          </div>
+          <div class="form-field">
+            <label for="correo"><strong>Correo electrónico *</strong></label>
+            <input id="correo" name="correo" type="email" autocomplete="email" required aria-describedby="error-correo">
+            <span class="error-tooltip" id="error-correo" role="status">Ingresa un correo electrónico válido.</span>
+          </div>
+          <div class="form-field">
+            <label for="motivo"><strong>Motivo de consulta</strong></label>
+            <select id="motivo" name="motivo">
+              <option>Admisión 2027</option>
+              <option>Trámites</option>
+              <option>Mesa de Partes</option>
+              <option>Consulta general</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="mensaje"><strong>Mensaje *</strong></label>
+            <textarea id="mensaje" name="mensaje" rows="5" minlength="10" required aria-describedby="error-mensaje"></textarea>
+            <span class="error-tooltip" id="error-mensaje" role="status">Escribe tu mensaje (mínimo 10 caracteres).</span>
+          </div>
+          <button class="btn" type="submit">Preparar consulta</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+  <!-- CONTENIDO PRINCIPAL (FIN) -->
+
+    <!-- PIE DE PÁGINA -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3>I.E.E. Coronel Bolognesi</h3>
+          <p>Formación integral, disciplina, identidad y compromiso con el futuro de Tacna.</p>
+          <p><strong>Lema:</strong> «Tengo deberes sagrados que cumplir y los cumpliré hasta quemar el último cartucho».</p>
+        </div>
+        <div>
+          <h4>Explora el portal</h4>
+          <p><a href="institucion.html">Nuestra Institución</a></p>
+          <p><a href="propuesta.html">Propuesta Educativa</a></p>
+          <p><a href="actividades.html">Vida Escolar y Comunidad</a></p>
+        </div>
+        <div>
+          <h4>Contacto</h4>
+          <p>Calle Modesto Molina s/n, Tacna, Perú</p>
+          <p>Teléfono: 052-425232</p>
+          <p><a href="mailto:secretaria@ieecoronelbolognesi.edu.pe">secretaria@ieecoronelbolognesi.edu.pe</a></p>
+          <p><a href="https://facebook.com" target="_blank" rel="noopener">Facebook institucional</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2026 Grupo 6 · Proyecto portal web educativo · UNJBG
+      </div>
+    </div>
+  </footer>
+
+
+  <script>
+    // Validación visual personalizada: evita los globos nativos del navegador.
+    document.querySelectorAll('.contact-form').forEach((form) => {
+      const fields = Array.from(form.querySelectorAll('input, textarea'));
+
+      function updateField(field) {
+        const invalid = !field.checkValidity();
+        field.classList.toggle('is-invalid', invalid && field.dataset.validationAttempted === 'true');
+        field.setAttribute('aria-invalid', String(invalid && field.dataset.validationAttempted === 'true'));
+      }
+
+      fields.forEach((field) => {
+        field.addEventListener('input', () => updateField(field));
+        field.addEventListener('change', () => updateField(field));
+      });
+
+      form.addEventListener('submit', (event) => {
+        let firstInvalid = null;
+        fields.forEach((field) => {
+          field.dataset.validationAttempted = 'true';
+          updateField(field);
+          if (!field.checkValidity() && !firstInvalid) firstInvalid = field;
+        });
+        if (firstInvalid) {
+          event.preventDefault();
+          firstInvalid.focus();
+        }
+      });
+    });
+  </script>
+</body>
+</html>
